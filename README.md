@@ -308,13 +308,12 @@ Detailed project documentation including:
 - ETL explanation
 - Database design
 - SQL query outputs
-- Screenshots
 - Analysis results
 
 is available in:
 
 ```
-docs/ETL_Project_Documentation.docx
+docs/ETL_Project_Documentation.pdf
 ```
 
 ---
