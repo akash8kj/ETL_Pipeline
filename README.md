@@ -15,6 +15,14 @@ By combining these datasets, the project enables analytical queries such as brew
 
 ---
 
+# 🎯 Business Problem
+
+Organizations often need to combine data from multiple sources to generate meaningful insights. This project demonstrates how raw API data can be extracted, cleaned, transformed, stored in a relational database, and analyzed using SQL.
+
+The pipeline combines brewery and population datasets to analyze brewery distribution patterns and compare brewery density across different states.
+
+---
+
 # 🏗️ Project Architecture
 
 ```
@@ -130,7 +138,9 @@ Data is extracted from external APIs using Python.
 Sources:
 
 ### Open Brewery DB API
+
 Provides brewery information including:
+
 - Brewery name
 - Type
 - Location
@@ -139,7 +149,9 @@ Provides brewery information including:
 - Coordinates
 
 ### US Census Population API
+
 Provides:
+
 - State name
 - State code
 - Population data
@@ -291,7 +303,7 @@ python Scripts/load_population.py
 
 ---
 
-# 📈 Future Improvements
+# 📈 Possible Enhancements
 
 - Add automated ETL scheduling using Apache Airflow
 - Add Docker containerization
@@ -323,6 +335,3 @@ docs/ETL_Project_Documentation.pdf
 **Ankan Mondal**
 
 BCA Student | Aspiring Data Analyst
-
-Skills:
-Python • SQL • PostgreSQL • Power BI • Data Analytics
