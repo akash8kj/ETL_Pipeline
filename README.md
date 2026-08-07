@@ -230,7 +230,7 @@ sql/analysis_queries.sql
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/<your-github-username/ETL_Pipeline.git
+git clone https://github.com/<your-github-username>/ETL_Pipeline.git
 
 cd ETL_Pipeline
 ```
